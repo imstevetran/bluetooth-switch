@@ -1,0 +1,4 @@
+[target.x86_64-pc-windows-gnu]
+linker = "C:/llvm-mingw/llvm-mingw-20260602-ucrt-x86_64/bin/x86_64-w64-mingw32-gcc.exe"
+ar = "C:/llvm-mingw/llvm-mingw-20260602-ucrt-x86_64/bin/llvm-ar.exe"
+rustflags = ["-C", "link-arg=-lunwind"]
