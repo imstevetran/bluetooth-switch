@@ -1,4 +1,17 @@
+# Rust
 /target
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other project files (unrelated)
 node_modules/
 app.js
 app.py
